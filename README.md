@@ -47,15 +47,21 @@ I feel there should be one obvious way for numbers to be read.
 
 The number "*100*" is looked at favorably as a "maximum" number, and hence we have a concept of a "percentage", where you can score an "*86%*" on a test, or get a coupon with a "*15%*" discount.
 
-This is inconsistent from the grouping of 3 digits at a time. Why don't percentages have *1000%* as a maximum?
+This is a lot of inconsistent from the grouping of 3 digits at a time. Why don't percentages have *1000%* as a maximum?
 
-Finally, there is inconsistency about when to prepend an extra 0 to the front of a number.
+Also, if we are absolutely certain that the number will only be from 0 to 100, why don't we 0% as 000%? 
 
-When expressing time, why would you write it as *4:08*? Why don't you say that the time is *4:8*? Why don't you say that the time is *04:08*?
+
+
+There is much inconsistency about when to prepend an extra 0 to the front of a number.
+
+When expressing time, why would you write it as *4:08*? Why don't you say that the time is *4:8*? Alternatively, why don't you say that the time is *04:08*?
 
 Same with dates. What date is this? *03-04-09*
 
 What about *5/4/08*?
+
+It might seem trivial, but from a software engineer's perspective, that inconsistency in spacing is a very annoying cause of various bugs and extra inefficent code. It is especially an issue for graphical design. Instead of having a fixed width, the text field has to take into account 3 different sizes, making sure object overlap doesn't happen. 
 
 ## Solution
 
