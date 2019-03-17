@@ -1,6 +1,6 @@
 # Heximal
 
-For a sneak peak, [here are what my hexmial number system looks like](heximal.jpg).
+For a sneak peak, [here are what my heximal number system looks like](heximal.jpg).
 
 ## Introduction
 
