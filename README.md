@@ -24,6 +24,16 @@ If you want to see what any digit looks like by itself, you'd have to set the ot
 
 If you are wondering why *0* is so complicated looking, understand that this is simply implying that zero is even, and also divides 3. Of course 0 would divide all numbers, but from the perspective of the heximal number system, the equivalent number of *6* ends up dividing 2 and 3, so that ends up being the definition for *0*.
 
+*5* is not divisible by 2 or 3. So it needed a symbol of its own. Since it's the only other prime, and - and \ were already used to represent the other primes, I used / for this last prime.
+
+For *4*, Since it's divisible by 2, I had to include the -. To represent *4*, I wanted to say something like "double the 2". So my way of doing that was to write - twice, hence =.
+
+Finally, why doesn't *0* contains symbols for 4 or 5?
+
+That is because *0* is meant to be used to represent a multiple of six. "10" equals 6. "20" equals 12, "30" equals 18, etc.
+
+2 and 3 will *always* divide *10* or *20* or any other *X0*. 4 and 5 will only divide some specific cases, like *40* and *50*. Since they are only exceptions, they don't influence how 0 looks like.
+
 Now that you know how to read it, here is a handwritten list of numbers / symbols:
 
 ![heximal](heximal.jpg)
