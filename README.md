@@ -28,6 +28,8 @@ Now that you know how to read it, here is a handwritten list of numbers / symbol
 
 ![heximal](heximal.jpg)
 
+Please let me know if this looks confusing, and I will be happy to talk more about it with you.
+
 I tried to find unicode character equivalents, I found a few here:
 
 ### 11: ˡ
