@@ -24,7 +24,7 @@ If you want to see what any digit looks like by itself, you'd have to set the ot
 
 If you are wondering why *0* is so complicated looking, understand that this is simply implying that zero is even, and also divides 3. Of course 0 would divide all numbers, but from the perspective of the heximal number system, the equivalent number of *6* ends up dividing 2 and 3, so that ends up being the definition for *0*.
 
-Now that you know how to read it, [here is a handwritten list of numbers / symbols](heximal.jpg).
+Now that you know how to read it, **[here is a handwritten list of numbers / symbols](heximal.jpg)**.
 
 I tried to find unicode character equivalents, I found a few here:
 
