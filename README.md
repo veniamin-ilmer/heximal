@@ -1,5 +1,7 @@
 # New Math Notation
 
+New symbolic representation using base 6.
+
 ## How to read it?
 
 Each symbol consists of a left and right side, translating into two heximal digits. Once you can read the right side, you will be able to read the left side.
@@ -10,17 +12,17 @@ Broken down, here are the symbol side meanings:
 
 Basically, the two digits are glued together. To see what one side looks like on its own, you have to set the other side to one.
 
-Notice, the digit 4 contains the symbol for divisible by *2*.
+Notice, the digit *4* contains the symbol for divisible by 2.
 
-Notice, the digit 0 contains the symbol for divisible by *2* and *3*.
+Notice, the digit *0* contains the symbol for divisible by 2 and 3.
 
-Finally, notice all digits contain the symbol for divisible by *1*.
+Finally, notice all digits contain the symbol for divisible by 1.
 
-Hence, by looking at the symbol, it is very easy to determine if it is divisible by *2*, *3*, or *10*.
+Hence, by looking at the symbol, it is very easy to determine if it is divisible by 2, 3, or 10 base 6.
 
-If you want to see what any digit looks like by itself, you'd have to set the other digit to *1*.
+If you want to see what any digit looks like by itself, you'd have to set the other digit to 1.
 
-If you are wondering why 0 is so complicated looking, understand that this is simply implying that zero is even, and also divides 3. Of course 0 would divide all numbers, but from the perspective of the heximal number system, the equivalent number of *6* ends up dividing 2 and 3, so that ends up being the definition for *0*.
+If you are wondering why *0* is so complicated looking, understand that this is simply implying that zero is even, and also divides 3. Of course 0 would divide all numbers, but from the perspective of the heximal number system, the equivalent number of *6* ends up dividing 2 and 3, so that ends up being the definition for *0*.
 
 Now that you know how to read it, [here is a handwritten list of numbers / symbols](heximal.jpg).
 
@@ -51,9 +53,21 @@ This inconsistency and arbitrariness causes confusion for students learning math
 
 I intend to completely redefine all of mathematics to feel more intuitive and consistent.
 
+## Base
+
+### Decimal
+
+The decimal base prioritizes numbers 2 and 5 for easy math calculations.
+
+It has been used mainly because of the number of fingers on our hands.
+
+However it is not the best system to use.
+
+### Heximal
+
 Based on my findings from [here](https://github.com/veniamin-ilmer/better-standards/tree/master/base-6), base 6 is the most optimal base for humans to use.
 
-I will be using that as a foundation to redefine all of mathematics from the ground up.
+It prioritizes numbers 2 and 3 for each math calculations. This is better than decimal because both 2 and 3 are within our subitizing range, making it much easier to count things in 2s and 3s.
 
 ## Grouping
 
@@ -92,7 +106,7 @@ It might seem trivial, but from a software engineer's perspective, that inconsis
 
 It is especially an issue for graphical design. Instead of having a fixed width, the text field has to take into account 3 different sizes, making sure object overlap doesn't happen for the different fonts used.
 
-### Solution
+### Heximal
 
 My notation system fixes issues noted above, by forcing the user into grouping it into 2 digits all the time.
 
