@@ -8,7 +8,7 @@ Each symbol consists of a left and right side, translating into two heximal digi
 
 Broken down, here are the symbol side meanings:
 
-![heximal_breakdown.png]
+![Heximal Breakdown](heximal_breakdown.png)
 
 Basically, the two digits are glued together. To see what one side looks like on its own, you have to set the other side to one.
 
