@@ -1,7 +1,5 @@
 # New Math Notation
 
-For a sneak peak, [here are what my heximal number system looks like](heximal.jpg). Explanation below.
-
 ## How to read it?
 
 Each symbol consists of a left and right side, translating into two heximal digits. Once you can read the right side, you will be able to read the left side.
@@ -12,13 +10,28 @@ Broken down, here are the symbol side meanings:
 
 Basically, the two digits are glued together. To see what one side looks like on its own, you have to set the other side to one.
 
-Notice, the digit 4 contains the symbol for divisible by 2.
+Notice, the digit 4 contains the symbol for divisible by *2*.
 
-Notice, the digit 0 contains the symbol for divisible by 2 and 3.
+Notice, the digit 0 contains the symbol for divisible by *2* and *3*.
 
-Finally, notice all digits contain the symbol for divisible by 1.
+Finally, notice all digits contain the symbol for divisible by *1*.
 
-Hence, by looking at the symbol, it is very easy to determine if it is divisible by 2, 3, or 6.
+Hence, by looking at the symbol, it is very easy to determine if it is divisible by *2*, *3*, or *10*.
+
+If you want to see what any digit looks like by itself, you'd have to set the other digit to *1*.
+
+If you are wondering why 0 is so complicated looking, understand that this is simply implying that zero is even, and also divides 3. Of course 0 would divide all numbers, but from the perspective of the heximal number system, the equivalent number of *6* ends up dividing 2 and 3, so that ends up being the definition for *0*.
+
+Now that you know how to read it, [here is a handwritten list of numbers / symbols](heximal.jpg).
+
+I tried to find unicode character equivalents, I found a few here:
+
+### 11: ˡ
+### 22: ⫠
+### 33: 人
+### 44: ⫨
+### 55: ⩛
+### 00: 大
 
 ## Why do this at all?
 
@@ -98,12 +111,3 @@ But, we are just getting started here. People are good at remembering symbols, b
 Generally, that quantity is known to be a maximum of 7 numbers. Hence a phone number, without the area code, is bearily memorable.
 
 The way my notation fixes this is by merging the two numbers into one symbol. 7 decimal digits ends up being only 5 of my merged hex digits. 10 decimal digits (that includes the area code), ends up being only 6 merged hex digits.
-
-## Unicode characters
-
-### 11: ˡ
-### 22: ⫠
-### 33: 人
-### 44: ⫨
-### 55: ⩛
-### 00: 大 
